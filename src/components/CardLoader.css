@@ -1,0 +1,86 @@
+/* From Uiverse.io by Nawsome */
+.card-loader {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 14px;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.card-loader .wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.card-loader .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.card-loader .button {
+  display: inline-block;
+  height: 32px;
+  width: 75px;
+}
+
+.card-loader .line-1 {
+  position: absolute;
+  top: 11px;
+  left: 58px;
+  height: 10px;
+  width: 100px;
+}
+
+.card-loader .line-2 {
+  position: absolute;
+  top: 34px;
+  left: 58px;
+  height: 10px;
+  width: 150px;
+}
+
+.card-loader .line-3 {
+  position: absolute;
+  top: 57px;
+  left: 0px;
+  height: 10px;
+  width: 100%;
+}
+
+.card-loader .line-4 {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  height: 10px;
+  width: 92%;
+}
+
+.card-loader .line-5 {
+  position: absolute;
+  top: 103px;
+  left: 0px;
+  height: 10px;
+  width: 92%;
+}
+
+.card-loader .line-6 {
+  position: absolute;
+  top: 126px;
+  left: 0px;
+  height: 10px;
+  width: 100%;
+}
+
+@keyframes gradient-animation_2 {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
