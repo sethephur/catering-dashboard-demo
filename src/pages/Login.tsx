@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import TruckLoader from "../components/TruckLoader";
 import { toast } from "sonner";
 import { useSiteSettings } from "@/hooks/useSiteSettings";
 import { Label } from "../components/ui/label";
@@ -184,9 +183,6 @@ export default function Login() {
               </div>
             </div>
 
-            <div className="py-2">
-              <TruckLoader />
-            </div>
           </section>
 
           <Card className="w-full border-border/70 bg-card/95 shadow-sm">
